@@ -4,7 +4,7 @@ A comprehensive, full-stack placement readiness platform built using Node.js, Ex
 
 ---
 
-## 🎯 Prompt Engineering Enhancement Summary
+## Prompt Engineering Enhancement Summary
 
 Traditional aptitude training platforms rely on static question banks with fixed answer keys, lacking personalized roadmaps, step-by-step diagnostic feedback, and natural human mentorship. 
 
@@ -18,11 +18,11 @@ By applying **Prompt Engineering Techniques** (Role Prompting, Few-Shot Exemplar
 
 ---
 
-## 📋 Prompt Cards Collection
+## Prompt Cards Collection
 
 Below are the exact **Prompt Cards** implemented in the project codebase (`server/prompts/prompts.js`).
 
-### 🏛️ Master System Persona & Directive Card
+### Master System Persona & Directive Card
 ```markdown
 [HUMAN-CRAFTED STYLE, REAL DATA & FOCUSED EXPLANATION DIRECTIVES]:
 - Write naturally, authentically, and conversationally like an experienced human math professor and tutor writing a textbook chapter.
@@ -41,7 +41,7 @@ Below are the exact **Prompt Cards** implemented in the project codebase (`serve
 
 ---
 
-### 🃏 PROMPT CARD 1: Personalized Study Roadmap Generator
+### PROMPT CARD 1: Personalized Study Roadmap Generator
 
 #### Version 1 (Baseline Zero-Shot Direct)
 ```markdown
@@ -107,7 +107,7 @@ Return JSON ONLY:
 
 ---
 
-### 🃏 PROMPT CARD 2: Topic Concept Lesson & Solved Exemplars
+### PROMPT CARD 2: Topic Concept Lesson & Solved Exemplars
 
 #### Version 3 (Structured Step-by-Step Template)
 ```markdown
@@ -136,7 +136,7 @@ Return strictly JSON:
 
 ---
 
-### 🃏 PROMPT CARD 3: Adaptive Practice Quiz Generation
+### PROMPT CARD 3: Adaptive Practice Quiz Generation
 
 #### Version 3 (Structured Diagnostic Few-Shot Template)
 ```markdown
@@ -166,7 +166,7 @@ Return JSON ONLY:
 
 ---
 
-### 🃏 PROMPT CARD 4: Company-Specific Interview Preparation
+### PROMPT CARD 4: Company-Specific Interview Preparation
 
 ```markdown
 [ROLE]: Technical Interviewer & Corporate Mentor
@@ -193,7 +193,7 @@ Return JSON ONLY:
 
 ---
 
-### 🃏 PROMPT CARD 5: Performance Diagnostic Feedback & Revision Plan
+### PROMPT CARD 5: Performance Diagnostic Feedback & Revision Plan
 
 ```markdown
 [ROLE]: Aptitude Coach
@@ -221,7 +221,7 @@ Return JSON ONLY:
 
 ---
 
-## 📊 Prompt Engineering Technique Comparison
+## Prompt Engineering Technique Comparison
 
 | Technique Dimension | V1 (Baseline Direct) | V2 (Role + Few-Shot) | V3 (Chain-of-Thought Diagnostic) |
 | :--- | :--- | :--- | :--- |
@@ -233,7 +233,7 @@ Return JSON ONLY:
 
 ---
 
-## 🚀 How to Run the Application
+## How to Run the Application
 
 ### Option A: One-Click Launcher (Windows)
 Double-click `run_app.bat` or `start.bat` in the root directory. This will start the backend server (Port 5000), Vite frontend (Port 5173), and open your browser automatically.
